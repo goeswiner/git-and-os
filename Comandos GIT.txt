@@ -1,0 +1,37 @@
+pwd		  [local]
+cd		  [ir para]
+mkdir pastax     [criar diretório]
+rm -rf lugar/    [deletar diretório]
+git init	  [Criar repositório]
+git config --global user.name "Nome"
+git config --global user.email "Email"
+touch nome.txt	   [criar arquivo]
+cat nomedoarquivo	[ver conteúdo]
+ls		  [ver arquivos]
+ls -a 		  [ver arquivos ocultos]
+git status 	
+git add
+git rm --cached nomedoarquivo	[voltar da staging area]
+git commit -m "Mensagem"
+git remote -v		[Ver origin]
+git remote add origin https://URL/
+git push -u origin master
+git push
+git log
+git log --oneline
+git log nomedoarquivo
+git show codigodocommit  [ver alteraçõoes no commit]
+git diff	[comparar arquivos]
+git diff nomedoarquivo		[comparar arquivo especifico]
+git diff --staged	[comparar arquivos na staging]
+git rm nomedoarquivo	[excluir arquivo]
+git log --diff-filter=D --summary	[log de arquivos exluidos]
+git checkout codigocommit~1 nomedoarquivo
+git revert HEAD		[reverter ultimo commit]
+git revert codigocommit		[revert commit]
+git remote		[ver repositórios remotos]
+git remote rm destination	[remover um dos repositórios remotos]
+git push --set-upstream learningTech main	[definir repositório online como principal]
+
+
+
