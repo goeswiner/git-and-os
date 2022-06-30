@@ -1,2 +1,2 @@
 # git-and-os
-Repositório para estudos e anotações sobre GIT e sistemas operacionais
+Repositório para estudos e anotações úteis como GIT, REGEX e sistemas operacionais
